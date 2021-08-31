@@ -1,0 +1,5 @@
+print("\t Nothing\n \t will work\n \t unless you do")
+print("\t\" Anyone who\n \t\tstops\n \t\t\tlearning is old,\n \t\t\t\twhether at twenty or eighty\"\n", "\t\t\t\t\t\t\tHenry Ford")
+val1 = input("Strana A")
+val2 = input("Strana B")
+print(int(val1) + int(val2))
