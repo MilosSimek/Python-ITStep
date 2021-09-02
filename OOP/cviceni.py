@@ -6,11 +6,7 @@ class Zmrzlina:
     def __str__(self):
         return f"Prichut je {self.prichut}"
 
-
-cokoladova = Zmrzlina("Cokoladova")
-vanilkova = Zmrzlina("Vanilkova")
-
-prichute = [cokoladova, vanilkova]
+prichute = [Zmrzlina("Cokoladova"), Zmrzlina("Vanilkova")]
 
 for i in prichute:
     print(i)
